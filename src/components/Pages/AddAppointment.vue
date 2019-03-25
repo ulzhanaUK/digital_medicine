@@ -23,11 +23,9 @@
      </fieldset>
    </form>
    <h6>PEAK THE DATE</h6>
-   <datepicker :format="customFormatter"></datepicker>
-   <form class="uk-form">
-    <input type="text" data-uk-datepicker="{format:'DD.MM.YYYY'}">
-   </form>
+   <center><datepicker :format="customFormatter"></datepicker></center>
    <h6>PEAK THE NEEDED TIME</h6>
+   <vue-timepicker format="hh:mm A"></vue-timepicker>
  </center>
  <!-- <Footer /> -->
  </div>
@@ -35,6 +33,7 @@
 
 <script>
 import Datepicker from 'vuejs-datepicker';
+import moment from 'moment'
 import Navbar from "@/components/partials/Navbar1";
 // import Footer from "@/components/partials/Footer"
 export default {

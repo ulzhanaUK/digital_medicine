@@ -8,7 +8,7 @@
      <div class="uk-card-header">
       <div class="uk-grid-small uk-flex-middle" uk-grid>
        <div class="uk-width-auto">
-          <img class="uk-border-circle" width="70" height="100" src="../../assets/doctor1.png">
+          <img class="uk-border-circle" width="70" height="100" src="../../assets/doctor5.jpg">
        </div>
        <div class="uk-width-expand">
           <h3 class="uk-card-title uk-margin-remove-bottom">Title</h3>
@@ -70,7 +70,7 @@
    <div class="uk-card-header">
      <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-auto">
-         <img class="uk-border-circle" width="70" height="100" src="../../assets/doctor2.png">
+         <img class="uk-border-circle" width="70" height="100" src="../../assets/doctor6.jpg">
       </div>
       <div class="uk-width-expand">
          <h3 class="uk-card-title uk-margin-remove-bottom">Title</h3>
@@ -92,7 +92,7 @@
    <div class="uk-card-header">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
      <div class="uk-width-auto">
-        <img class="uk-border-circle" width="70" height="100" src="../../assets/doctor1.png">
+        <img class="uk-border-circle" width="70" height="100" src="../../assets/doctor4.jpg">
      </div>
      <div class="uk-width-expand">
         <h3 class="uk-card-title uk-margin-remove-bottom">Title</h3>
@@ -112,7 +112,7 @@
   <div class="uk-card-header">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
      <div class="uk-width-auto">
-        <img class="uk-border-circle" width="70" height="100" src="../../assets/doctor2.png">
+        <img class="uk-border-circle" width="70" height="100" src="../../assets/doctor3.png">
      </div>
      <div class="uk-width-expand">
         <h3 class="uk-card-title uk-margin-remove-bottom">Title</h3>

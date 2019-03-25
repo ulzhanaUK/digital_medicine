@@ -5,6 +5,7 @@ const Register = resolve => require(['@/components/pages/Register.vue'], resolve
 const Login = resolve => require(['@/components/pages/Login.vue'], resolve)
 const Appointments = resolve => require(['@/components/pages/Appointments.vue'], resolve)
 const AddAppointment = resolve => require(['@/components/pages/AddAppointment.vue'], resolve)
+const Time = resolve => require(['@/components/pages/Time.vue'], resolve)
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/addAppointment',
       name: 'AddAppointment',
       component: AddAppointment
+    },
+    {
+      path: '/time',
+      name: 'Time',
+      component: Time
     }
   ]
 })
