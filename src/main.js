@@ -9,6 +9,7 @@ import '@vuikit/theme'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import Vuex from 'vuex'
+import Datepicker from 'vuejs-datepicker';
 
 Vue.use(Vuex)
 

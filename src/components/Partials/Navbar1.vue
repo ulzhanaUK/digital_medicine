@@ -7,7 +7,7 @@
         <vk-navbar-nav-dropdown-nav>
           <vk-nav-item title="My profile" active></vk-nav-item>
           <vk-nav-item title="Doctors"></vk-nav-item>
-          <vk-nav-item title="Appointments"></vk-nav-item>
+          <vk-nav-item title="Appointments" href="/#/appointments"></vk-nav-item>
         </vk-navbar-nav-dropdown-nav>
       </vk-navbar-nav-dropdown>
     </vk-navbar-nav>

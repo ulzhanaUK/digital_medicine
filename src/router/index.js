@@ -3,6 +3,8 @@ import Router from 'vue-router'
 const Main = resolve => require(['@/components/pages/Main.vue'], resolve)
 const Register = resolve => require(['@/components/pages/Register.vue'], resolve)
 const Login = resolve => require(['@/components/pages/Login.vue'], resolve)
+const Appointments = resolve => require(['@/components/pages/Appointments.vue'], resolve)
+const AddAppointment = resolve => require(['@/components/pages/AddAppointment.vue'], resolve)
 
 Vue.use(Router)
 
@@ -22,6 +24,16 @@ export default new Router({
       path: '/login',
       name: 'Login',
       component: Login
+    },
+    {
+      path: '/appointments',
+      name: 'Appointments',
+      component: Appointments
+    },
+    {
+      path: '/addAppointment',
+      name: 'AddAppointment',
+      component: AddAppointment
     }
   ]
 })

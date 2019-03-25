@@ -9,28 +9,34 @@
             <img src="../../assets/main1.jpg" alt="" uk-cover>
             <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                 <h3 class="uk-margin-remove">Welcome to our Polyclinic</h3>
-                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="uk-margin-remove">
+                  We are an independent, physician-led and physician-governed multispecialty medical group, working together to serve our patients with high quality, comprehensive care.</p>
             </div>
         </li>
         <li>
             <img src="../../assets/2.jpg" alt="" uk-cover>
             <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                <h3 class="uk-margin-remove">Bottom</h3>
-                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3 class="uk-margin-remove">Our Mission</h3>
+                <p class="uk-margin-remove">To promote the health of our patients with personalized care.</p>
             </div>
         </li>
         <li>
             <img src="../../assets/3.jpg" alt="" uk-cover>
             <div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right uk-width-medium">
-                <h3 class="uk-margin-remove">Left</h3>
-                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3 class="uk-margin-remove">Place, where Technology Meets Humanity.</h3>
+                <p class="uk-margin-remove">
+                  The Polyclinic embraces state-of-the-art technology, but we never forget the human side of health care.  As a Polyclinic patient, you’ll have access to:
+                  My Chart – a convenient online tool that empowers you to be a better advocate for your family’s health.
+                  My Chart offers the convenience and flexibility of access to your medical information, anytime.</p>
             </div>
         </li>
         <li>
-            <img src="../../assets/main7.jpg" alt="" uk-cover>
+            <img src="../../assets/main7.jpg" alt="Doctors" uk-cover>
             <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                <h3 class="uk-margin-remove">Bottom</h3>
-                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3 class="uk-margin-remove">Best Doctors in Astana & Multispecialty, Patient-Focused Team.</h3>
+                <p class="uk-margin-remove">
+                  Think of The Polyclinic as a single doorway to your health care needs.
+                  From pediatrics, family practice and internal medicine to specialist physicians and surgeons, The Polyclinic team works together with one goal in mind: what’s right for you.</p>
             </div>
         </li>
     </ul>

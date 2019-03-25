@@ -11,7 +11,7 @@
         <input class="uk-input" required v-model="email" type="email" placeholder="Email">
     </div>
     <div class="uk-margin uk-width-1-1">
-        <input class="uk-input" required v-model="name" type="name" placeholder="Name">
+        <input class="uk-input" required v-model="uin" type="number" placeholder="UIN">
     </div>
     <div class="uk-margin uk-width-1-1">
         <input class="uk-input" required v-model="password" type="password" placeholder="Password">
@@ -19,6 +19,7 @@
     <button class="uk-width-1-1 uk-button uk-button-primary uk-button-large">Submit</button>
   </form>
   <p>By signing up, you agree to our Terms, Data Policy and Cookies Policy.</p>
+  <h4 style="color:red;">{{errorlog}}</h4>
 </vk-card>
 
   <vk-card class="uk-width-1-3@m">
@@ -38,21 +39,22 @@ export default {
     return {
       email: "",
       password: "",
-      name:""
+      uin: "",
+      errorlog:""
     }
   },
   methods: {
     signup() {
       let api='https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=AIzaSyC_Ed2LUR4b2tvX4UHPRUa2qn_SmsTcHgU'
       let email = this.email
-      let name = this.name
       let password = this.password
       this.axios.post(api, {
-        email, name, password
+        email, password
       }).then( (result) =>{
         console.log(result)
         this.$router.push('/')
       }, (err) => {
+        this.errorlog = "Error! Email or UIN is not correct. Try again.",
         console.log(err)
       })
     }
