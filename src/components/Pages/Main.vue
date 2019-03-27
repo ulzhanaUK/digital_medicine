@@ -46,7 +46,7 @@
     </div>
     <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
    </div>
-    <h1>{{ msg }}</h1>
+    <h1 style="font-weight: bold;">{{ msg }}</h1>
    </div>
 </template>
 

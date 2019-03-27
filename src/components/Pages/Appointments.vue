@@ -11,13 +11,13 @@
           <img class="uk-border-circle" width="70" height="100" src="../../assets/doctor5.jpg">
        </div>
        <div class="uk-width-expand">
-          <h3 class="uk-card-title uk-margin-remove-bottom">Title</h3>
+          <h3 class="uk-card-title uk-margin-remove-bottom">Andrey</h3>
           <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
        </div>
       </div>
      </div>
      <div class="uk-card-body">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        <p>Andrey Sokolov - Allergist. You checked your allergies state.</p>
      </div>
      <div class="uk-card-footer">
         <a href="#" class="uk-button uk-button-text">Read more</a>
@@ -31,13 +31,13 @@
           <img class="uk-border-circle" width="70" height="100" src="../../assets/doctor2.png">
        </div>
        <div class="uk-width-expand">
-          <h3 class="uk-card-title uk-margin-remove-bottom">Title</h3>
-          <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+          <h3 class="uk-card-title uk-margin-remove-bottom">Anna</h3>
+          <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 21, 2016</time></p>
        </div>
       </div>
      </div>
      <div class="uk-card-body">
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+       <p>Anna Saken - Dermatologist. You had a consultation about your skin: you had problems with your skin.</p>
      </div>
      <div class="uk-card-footer">
        <a href="#" class="uk-button uk-button-text">Read more</a>
@@ -53,13 +53,13 @@
          <img class="uk-border-circle" width="70" height="100" src="../../assets/doctor1.png">
       </div>
       <div class="uk-width-expand">
-         <h3 class="uk-card-title uk-margin-remove-bottom">Title</h3>
-         <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+         <h3 class="uk-card-title uk-margin-remove-bottom">Asel</h3>
+         <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">October 01, 2016</time></p>
       </div>
      </div>
     </div>
     <div class="uk-card-body">
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+       <p>Asel Kyirbayevna - Gastroenterologist. She’s a specialist in digestive organs. You had a gastritis.</p>
     </div>
     <div class="uk-card-footer">
        <a href="#" class="uk-button uk-button-text">Read more</a>
@@ -73,13 +73,13 @@
          <img class="uk-border-circle" width="70" height="100" src="../../assets/doctor6.jpg">
       </div>
       <div class="uk-width-expand">
-         <h3 class="uk-card-title uk-margin-remove-bottom">Title</h3>
-         <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+         <h3 class="uk-card-title uk-margin-remove-bottom">Abylay</h3>
+         <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">July 05, 2017</time></p>
       </div>
      </div>
     </div>
     <div class="uk-card-body">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+      <p>Abylay Saken - Nephrologist. You had high blood pressure. </p>
     </div>
     <div class="uk-card-footer">
       <a href="#" class="uk-button uk-button-text">Read more</a>
@@ -95,13 +95,13 @@
         <img class="uk-border-circle" width="70" height="100" src="../../assets/doctor4.jpg">
      </div>
      <div class="uk-width-expand">
-        <h3 class="uk-card-title uk-margin-remove-bottom">Title</h3>
-        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+        <h3 class="uk-card-title uk-margin-remove-bottom">Alievs</h3>
+        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">January 21, 2018</time></p>
      </div>
     </div>
    </div>
    <div class="uk-card-body">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+      <p>Anuar Aliev and Kamila Aliev are Family psychologists. You had problems with children.</p>
    </div>
    <div class="uk-card-footer">
       <a href="#" class="uk-button uk-button-text">Read more</a>
@@ -115,13 +115,13 @@
         <img class="uk-border-circle" width="70" height="100" src="../../assets/doctor3.png">
      </div>
      <div class="uk-width-expand">
-        <h3 class="uk-card-title uk-margin-remove-bottom">Title</h3>
-        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+        <h3 class="uk-card-title uk-margin-remove-bottom">Farida</h3>
+        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">March 15, 2019</time></p>
      </div>
     </div>
    </div>
    <div class="uk-card-body">
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+     <p>Farida Zhumabayeva - dentist. She treated your teeth.</p>
    </div>
    <div class="uk-card-footer">
      <a href="#" class="uk-button uk-button-text">Read more</a>

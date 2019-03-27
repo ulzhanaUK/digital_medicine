@@ -2,14 +2,15 @@
  <div class="uk-position-relative">
  <Navbar />
  <center>
-  <h2>Add the new Appointment</h2>
-  <h6>CHOOSE THE DOCTOR</h6>
+ <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
+  <h2 style="font-weight: bold">Add the new Appointment</h2>
+  <h6>1) CHOOSE THE DOCTOR</h6>
   <form>
     <fieldset class="uk-fieldset">
-      <div class="uk-margin uk-grid-small uk-child-width-auto ">
+      <div class="uk-grid-small uk-child-width-auto ">
             <label><input class="uk-radio" type="radio" name="radio2" checked> My Doctor</label>
             <label><input class="uk-radio" type="radio" name="radio2">
-              <select class="uk-select uk-width-1-5@m">
+              <select class="uk-select uk-width-1-3@m">
                 <option>Other Doctor</option>
                 <option>Asel Armanova (dermatologist)</option>
                 <option>Dauren Boranbayev(cardiologist)</option>
@@ -22,11 +23,74 @@
        </div>
      </fieldset>
    </form>
-   <h6>PEAK THE DATE</h6>
-   <center><datepicker :format="customFormatter"></datepicker></center>
-   <h6>PEAK THE NEEDED TIME</h6>
-   <vue-timepicker format="hh:mm A"></vue-timepicker>
- </center>
+   <h6>2) PEAK THE DATE</h6>
+  <div style="display: flex; justify-content: center"><datepicker :format="customFormatter"></datepicker></div>
+   <h6>3) PEAK THE NEEDED TIME</h6>
+   <div class="uk-width-1-2@m"><table class="uk-table uk-table-hover uk-table-divider">
+    <thead>
+        <tr>
+            <th>№</th>
+            <th>Time</th>
+            <th>UIN</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>9:00-9:30</td>
+            <td>010213521025</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>9:30-10:00</td>
+            <td>121216435125</td>
+        </tr>
+        <tr>
+            <td style="background-color: green">3</td>
+            <td style="background-color: green">10:00-10:30</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>10:30-11:00</td>
+            <td>970524126443</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>11:00-11:30</td>
+            <td>640919546123</td>
+        </tr>
+        <tr>
+            <td style="background-color: green">6</td>
+            <td style="background-color: green">11:30-12:00</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="background-color: green">7</td>
+            <td style="background-color: green">12:00-12:30</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>12:30-13:00</td>
+            <td>651119541346</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>13:00-13:30</td>
+            <td>670618549812</td>
+        </tr>
+        <tr>
+            <td style="background-color: green">10</td>
+            <td style="background-color: green">13:30-14:00</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<button class="uk-width-1-2 uk-button uk-button-primary uk-button-large">Log in</button>
+</div>
+</center>
  <!-- <Footer /> -->
  </div>
 </template>
@@ -49,7 +113,7 @@ export default {
   },
   methods: {
     customFormatter(date) {
-      return moment(date).format('MMMM Do YYYY, h:mm:ss a');
+      return moment(date).format('MMMM Do YYYY');
     }
   }
 }

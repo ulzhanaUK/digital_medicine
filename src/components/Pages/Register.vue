@@ -6,7 +6,7 @@
   <vk-card class="uk-width-1-3@m uk-inline">
   <form @submit.prevent="signup">
   <a slot="center"><img class="uk-width-1-1@s" src="../../assets/main.jpg"></a>
-    <h3>Sign up</h3>
+    <h3 style="font-weight: bold;">Sign up</h3>
     <div class="uk-margin uk-width-1-1">
         <input class="uk-input" required v-model="email" type="email" placeholder="Email">
     </div>
